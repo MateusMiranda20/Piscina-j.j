@@ -1,7 +1,10 @@
-import React from 'react'
+/* eslint-disable no-unused-vars */
+import React from 'react';
 
-export function Home() {
+function Home() {
   return (
-   <div>Hello</div>
+   <div></div>
   )
 }
+
+export default Home

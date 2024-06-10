@@ -1,9 +1,11 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 
 
-export function Footer() {
+function Footer() {
   return (
-    <div>Wold</div>
+    <div></div>
   )
 }
 
+export default Footer

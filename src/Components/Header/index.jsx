@@ -1,22 +1,45 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
+import './styles.jsx';
+
 
 import {
-  Container, Header, P
+  Container, Header, Lista, Logo, Title, SubTitle, ButtonOrcamento, RedeSociais
 } from './styles'
 
 
-export function Headers() {
+function Headers() {
   return (
-    <Container>
+    <><Container>
       <Header>
         <div>
-          <P>Sobre nós</P>
-          <P>Serviços</P>
-          <P>Vantagens</P>
-          <P>Galeria</P>
-          <P>Contatos</P>
+          <Lista>Sobre nós</Lista>
+          <Lista>Serviços</Lista>
+          <Lista>Vantagens</Lista>
+          <Lista>Galeria</Lista>
+          <Lista>Contatos</Lista>
         </div>
       </Header>
-    </Container>
+    </Container><>
+        <Logo>
+          <Title>
+            J.J PISCINAS
+          </Title>
+          <SubTitle>
+            Excelência em construção e manutenção de piscinas residenciais
+          </SubTitle>
+          <ButtonOrcamento>
+            Solicite seu orçamento
+          </ButtonOrcamento>
+          <RedeSociais>
+            <div>
+              <a href='https://www.instagram.com/j.j_piscinas/' target='_blank'>@J.J_Piscinas</a>
+              <p>Email</p>
+            </div>
+          </RedeSociais>
+        </Logo>
+      </></>
   )
 }
+
+export default Headers
